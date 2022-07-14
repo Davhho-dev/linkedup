@@ -1,3 +1,15 @@
-h1 {
-    background-color: black;
+body {
+    background-color: #EBF4FB;
+}
+
+.navbar {
+    margin: 70px;
+}
+
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: #E0EDFB;
 }
