@@ -2,14 +2,68 @@ body {
     background-color: #EBF4FB;
 }
 
-.navbar {
+.navbar,
+.about_navbar {
     margin: 70px;
+    text-align: right;
 }
 
+.home,
+.about,
+.contact {
+    padding: 15px;
+    margin: 5px;
+    display: inline;    
+}
 
-li {
-    list-style: none;
+a:visited {
+    color: black;
+}
+
+a {
+    display: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*image containter*/
+
+.image {
     display: inline-block;
-    padding: 20px;
-    background-color: #E0EDFB;
 }
+
+img {
+    height: 100px;
+    width: auto;
+}
+
+/*content container*/
+
+.content {
+    width: 250px;
+    margin-left: 50px;
+}
+
+h1,
+.linkup {
+    font-size: 45px;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.912);
+    height: 150px;
+}
+
+.linkup {
+    color: #79ACEB;
+    display: block;
+
+}
+
+/*set margin to -3px to offset the border-bottom from pushing down on the content*/
+a:hover {
+    border-bottom: 3px solid white;
+    margin: -3px;
+}
+
+/*about.html*/
